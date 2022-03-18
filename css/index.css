@@ -1,0 +1,537 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.asphalt {
+  color: #2e3034;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Reey-Regular";
+  src: url("../assets/fonts/Reey-Regular.eot");
+  src: local("☺"), url("../assets/fonts/Reey-Regular.woff") format("woff"), url("../assets/fonts/Reey-Regular.ttf") format("truetype"), url("../assets/fonts/Reey-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*Navbar*/
+.container {
+  padding: 0;
+}
+
+#header .fixed-navbar {
+  float: right;
+}
+
+#header a {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.navbar-nav a {
+  white-space: nowrap;
+}
+
+.search-box {
+  width: 180px;
+  height: 50px;
+  background-color: #fefeff;
+}
+
+.search-box button {
+  border: none;
+  outline: none;
+  background: none;
+}
+.search-box input {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.inputForm {
+  border-radius: 50px;
+}
+
+/*SECTION 1*/
+.wg {
+  position: relative;
+}
+
+#backgroindImg {
+  background: url("/assets/img/Guides.png") top center no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: auto;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+.cookBrand {
+  width: 50px;
+  height: 50px;
+  background-image: url("/assets/img/chef.png");
+  background-size: cover;
+  position: relative;
+}
+@media (min-width: 280px) {
+  .cookBrand {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .cookBrand {
+    margin-top: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .cookBrand {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .cookBrand {
+    margin-top: 200px;
+  }
+}
+
+.cookBrandText {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.textBrand h1 {
+  font-family: "Reey-Regular";
+}
+@media (min-width: 280px) {
+  .textBrand h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 576px) {
+  .textBrand h1 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .textBrand h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .textBrand h1 {
+    font-size: 90px;
+  }
+}
+.textBrand h3 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+}
+@media (min-width: 280px) {
+  .textBrand h3 {
+    font-size: 5px;
+  }
+}
+@media (min-width: 576px) {
+  .textBrand h3 {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .textBrand h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .textBrand h3 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 280px) {
+  .descriptionText button {
+    width: 180px/3;
+    height: 40px/3;
+  }
+}
+@media (min-width: 576px) {
+  .descriptionText button {
+    width: 180px/2;
+    height: 40px/2;
+  }
+}
+@media (min-width: 768px) {
+  .descriptionText button {
+    width: 180px;
+    height: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .descriptionText button {
+    width: 200px;
+    height: 50px;
+  }
+}
+.descriptionText span {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 800;
+}
+@media (min-width: 280px) {
+  .descriptionText span {
+    font-size: 25px/3;
+  }
+}
+@media (min-width: 576px) {
+  .descriptionText span {
+    font-size: 25px/2;
+  }
+}
+@media (min-width: 768px) {
+  .descriptionText span {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .descriptionText span {
+    font-size: 25px;
+  }
+}
+.descriptionText h5 {
+  font-family: "Open Sans", sans-ser;
+  font-style: italic;
+}
+@media (min-width: 280px) {
+  .descriptionText h5 {
+    font-size: 10px;
+  }
+}
+@media (min-width: 576px) {
+  .descriptionText h5 {
+    font-size: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .descriptionText h5 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .descriptionText h5 {
+    font-size: 25px;
+  }
+}
+
+/*SECTION 2*/
+#section2 h2 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 400;
+}
+@media (min-width: 280px) {
+  #section2 h2 {
+    font-size: 8px;
+  }
+}
+@media (min-width: 576px) {
+  #section2 h2 {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) {
+  #section2 h2 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 992px) {
+  #section2 h2 {
+    font-size: 27px;
+  }
+}
+#section2 h3 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 30px;
+}
+@media (min-width: 280px) {
+  #section2 h3 {
+    font-size: 10px;
+  }
+}
+@media (min-width: 576px) {
+  #section2 h3 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  #section2 h3 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 992px) {
+  #section2 h3 {
+    font-size: 30px;
+  }
+}
+#section2 h4 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 400;
+}
+@media (min-width: 280px) {
+  #section2 h4 {
+    font-size: 8px;
+  }
+}
+@media (min-width: 576px) {
+  #section2 h4 {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) {
+  #section2 h4 {
+    font-size: 17px;
+  }
+}
+@media (min-width: 992px) {
+  #section2 h4 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 280px) {
+  .foodItem {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (min-width: 576px) {
+  .foodItem {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .foodItem {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .foodItem {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/*SECTION 3*/
+#section3 {
+  background-color: #27292c;
+}
+#section3 .descriptionText h4 {
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 280px) {
+  #section3 .descriptionText h4 {
+    font-size: 10px;
+  }
+}
+@media (min-width: 576px) {
+  #section3 .descriptionText h4 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  #section3 .descriptionText h4 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section3 .descriptionText h4 {
+    font-size: 25px;
+  }
+}
+
+/*SECTION4*/
+@media (min-width: 280px) {
+  #section4 .foodItem {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (min-width: 576px) {
+  #section4 .foodItem {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media (min-width: 768px) {
+  #section4 .foodItem {
+    width: 600px;
+    height: 600px;
+  }
+}
+@media (min-width: 992px) {
+  #section4 .foodItem {
+    width: 800px;
+    height: 800px;
+  }
+}
+#section4 h1 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 58px;
+  color: #27292c;
+}
+@media (min-width: 280px) {
+  #section4 h1 {
+    font-size: 15px;
+  }
+}
+@media (min-width: 576px) {
+  #section4 h1 {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) {
+  #section4 h1 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 992px) {
+  #section4 h1 {
+    font-size: 58px;
+  }
+}
+#section4 h3 {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 400;
+  color: #27292c;
+  font-size: 29px;
+}
+@media (min-width: 280px) {
+  #section4 h3 {
+    font-size: 7px;
+  }
+}
+@media (min-width: 576px) {
+  #section4 h3 {
+    font-size: 13px;
+  }
+}
+@media (min-width: 768px) {
+  #section4 h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section4 h3 {
+    font-size: 29px;
+  }
+}
+#section4 button {
+  background-color: #27292c;
+}
+
+/*SECTION5*/
+#section5 {
+  background: url("/assets/img/Header Background.png") top center no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 500px;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+#section5 h1 {
+  font-family: "Reey-Regular";
+}
+@media (min-width: 280px) {
+  #section5 h1 {
+    font-size: 7px;
+  }
+}
+@media (min-width: 576px) {
+  #section5 h1 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 768px) {
+  #section5 h1 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 992px) {
+  #section5 h1 {
+    font-size: 58px;
+  }
+}
+#section5 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+@media (min-width: 280px) {
+  #section5 h3 {
+    font-size: 5px;
+  }
+}
+@media (min-width: 576px) {
+  #section5 h3 {
+    font-size: 10px;
+  }
+}
+@media (min-width: 768px) {
+  #section5 h3 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  #section5 h3 {
+    font-size: 25px;
+  }
+}
+
+.line {
+  display: inline-flex;
+  align-self: flex-end;
+  width: 160px;
+  border-bottom: solid white;
+}
+@media (min-width: 280px) {
+  .line {
+    width: 70px;
+    border-bottom-width: 2px;
+  }
+}
+@media (min-width: 576px) {
+  .line {
+    width: 100px;
+    border-bottom-width: 5px;
+  }
+}
+@media (min-width: 768px) {
+  .line {
+    width: 130px;
+    border-bottom-width: 7px;
+  }
+}
+@media (min-width: 992px) {
+  .line {
+    width: 160px;
+    border-bottom-width: 10px;
+  }
+}
+
+.leaves {
+  position: absolute;
+  margin-top: -10%;
+}

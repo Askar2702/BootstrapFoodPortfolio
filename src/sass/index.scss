@@ -1,0 +1,455 @@
+@import "variable";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: "Reey-Regular";
+  src: url("../assets/fonts/Reey-Regular.eot");
+  src: local("☺"), url("../assets/fonts/Reey-Regular.woff") format("woff"),
+    url("../assets/fonts/Reey-Regular.ttf") format("truetype"),
+    url("../assets/fonts/Reey-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/*Navbar*/
+.container {
+  padding: 0;
+}
+#header {
+  .fixed-navbar {
+    float: right;
+  }
+}
+
+#header a {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.navbar-nav a {
+  white-space: nowrap;
+}
+.search-box {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(254, 254, 255);
+}
+.search-box {
+  button {
+    border: none;
+    outline: none;
+    background: none;
+  }
+  input {
+    border: none;
+    background: none;
+    outline: none;
+  }
+}
+
+.inputForm {
+  border-radius: 50px;
+}
+
+/*SECTION 1*/
+.wg {
+  position: relative;
+}
+
+#backgroindImg {
+  background: url("/assets/img/Guides.png") top center no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: auto;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+.cookBrand {
+  width: 50px;
+  height: 50px;
+  background-image: url("/assets/img/chef.png");
+  background-size: cover;
+  position: relative;
+
+  @include breakpoint(xs) {
+    margin-top: 20px;
+  }
+
+  @include breakpoint(sm) {
+    margin-top: 100px;
+  }
+  @include breakpoint(md) {
+    margin-top: 150px;
+  }
+
+  @include breakpoint(lg) {
+    margin-top: 200px;
+  }
+}
+
+.cookBrandText {
+  font-family: "Open Sans", sans-ser;
+  font-weight: 700;
+  font-size: 18px;
+}
+.textBrand {
+  h1 {
+    font-family: "Reey-Regular";
+    @include breakpoint(xs) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 20px;
+    }
+    @include breakpoint(md) {
+      font-size: 50px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 90px;
+    }
+  }
+  h3 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+
+    @include breakpoint(xs) {
+      font-size: 5px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 10px;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 25px;
+    }
+  }
+}
+
+.descriptionText {
+  button {
+    @include breakpoint(xs) {
+      width: 180px/3;
+      height: 40px/3;
+    }
+    @include breakpoint(sm) {
+      width: 180px/2;
+      height: 40px /2;
+    }
+    @include breakpoint(md) {
+      width: 180px;
+      height: 40px;
+    }
+
+    @include breakpoint(lg) {
+      width: 200px;
+      height: 50px;
+    }
+  }
+  span {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 800;
+
+    @include breakpoint(xs) {
+      font-size: 25px/3;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 25px/2;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 25px;
+    }
+  }
+  h5 {
+    font-family: "Open Sans", sans-ser;
+    font-style: italic;
+    @include breakpoint(xs) {
+      font-size: 20px-10;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 20px-8;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 25px;
+    }
+  }
+}
+
+/*SECTION 2*/
+#section2 {
+  h2 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 400;
+    @include breakpoint(xs) {
+      font-size: 8px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 13px;
+    }
+    @include breakpoint(md) {
+      font-size: 22px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 27px;
+    }
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 700;
+    font-size: 30px;
+
+    @include breakpoint(xs) {
+      font-size: 10px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 15px;
+    }
+    @include breakpoint(md) {
+      font-size: 25px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 30px;
+    }
+  }
+
+  h4 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 400;
+
+    @include breakpoint(xs) {
+      font-size: 8px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 13px;
+    }
+    @include breakpoint(md) {
+      font-size: 17px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 22px;
+    }
+  }
+}
+.foodItem {
+  @include breakpoint(xs) {
+    width: 150px;
+    height: 150px;
+  }
+  @include breakpoint(sm) {
+    width: 200px;
+    height: 200px;
+  }
+  @include breakpoint(md) {
+    width: 400px;
+    height: 400px;
+  }
+
+  @include breakpoint(lg) {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/*SECTION 3*/
+#section3 {
+  background-color: #27292c;
+  .descriptionText {
+    h4 {
+      font-family: "Montserrat", sans-serif;
+
+      @include breakpoint(xs) {
+        font-size: 10px;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 15px;
+      }
+      @include breakpoint(md) {
+        font-size: 20px;
+      }
+
+      @include breakpoint(lg) {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+/*SECTION4*/
+#section4 {
+  .foodItem {
+    @include breakpoint(xs) {
+      width: 200px;
+      height: 200px;
+    }
+    @include breakpoint(sm) {
+      width: 400px;
+      height: 400px;
+    }
+    @include breakpoint(md) {
+      width: 600px;
+      height: 600px;
+    }
+
+    @include breakpoint(lg) {
+      width: 800px;
+      height: 800px;
+    }
+  }
+
+  h1 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 700;
+    font-size: 58px;
+    color: #27292c;
+    @include breakpoint(xs) {
+      font-size: 15px;
+    }
+    @include breakpoint(sm) {
+      font-size: 25px;
+    }
+    @include breakpoint(md) {
+      font-size: 38px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 58px;
+    }
+  }
+  h3 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 400;
+    color: #27292c;
+    font-size: 29px;
+    @include breakpoint(xs) {
+      font-size: 7px;
+    }
+    @include breakpoint(sm) {
+      font-size: 13px;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 29px;
+    }
+  }
+  button {
+    background-color: #27292c;
+  }
+}
+
+/*SECTION5*/
+#section5 {
+  background: url("/assets/img/Header\ Background.png") top center no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  min-height: 500px;
+  position: relative;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+
+  h1 {
+    font-family: "Reey-Regular";
+    @include breakpoint(xs) {
+      font-size: 7px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 18px;
+    }
+    @include breakpoint(md) {
+      font-size: 38px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 58px;
+    }
+  }
+  h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    @include breakpoint(xs) {
+      font-size: 5px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 10px;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 25px;
+    }
+  }
+}
+
+.line {
+  display: inline-flex;
+  align-self: flex-end;
+  width: 160px;
+  border-bottom: solid rgb(255, 255, 255);
+
+  @include breakpoint(xs) {
+    width: 70px;
+    border-bottom-width: 2px;
+  }
+
+  @include breakpoint(sm) {
+    width: 100px;
+    border-bottom-width: 5px;
+  }
+  @include breakpoint(md) {
+    width: 130px;
+    border-bottom-width: 7px;
+  }
+
+  @include breakpoint(lg) {
+    width: 160px;
+    border-bottom-width: 10px;
+  }
+}
+.leaves {
+  position: absolute;
+  margin-top: -10%;
+}
