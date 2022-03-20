@@ -128,11 +128,11 @@
     font-size: 25px;
 
     @include breakpoint(xs) {
-      font-size: 5px;
+      font-size: 10px;
     }
 
     @include breakpoint(sm) {
-      font-size: 10px;
+      font-size: 15px;
     }
     @include breakpoint(md) {
       font-size: 20px;
@@ -209,11 +209,11 @@
     font-family: "Open Sans", sans-ser;
     font-weight: 400;
     @include breakpoint(xs) {
-      font-size: 8px;
+      font-size: 10px;
     }
 
     @include breakpoint(sm) {
-      font-size: 13px;
+      font-size: 15px;
     }
     @include breakpoint(md) {
       font-size: 22px;
@@ -250,11 +250,11 @@
     font-weight: 400;
 
     @include breakpoint(xs) {
-      font-size: 8px;
+      font-size: 10px;
     }
 
     @include breakpoint(sm) {
-      font-size: 13px;
+      font-size: 15px;
     }
     @include breakpoint(md) {
       font-size: 17px;
@@ -310,7 +310,7 @@
   }
 }
 
-/*SECTION4*/
+/*SECTION 4*/
 #section4 {
   .foodItem {
     @include breakpoint(xs) {
@@ -357,10 +357,10 @@
     color: #27292c;
     font-size: 29px;
     @include breakpoint(xs) {
-      font-size: 7px;
+      font-size: 10px;
     }
     @include breakpoint(sm) {
-      font-size: 13px;
+      font-size: 15px;
     }
     @include breakpoint(md) {
       font-size: 20px;
@@ -375,12 +375,12 @@
   }
 }
 
-/*SECTION5*/
+/*SECTION 5*/
 #section5 {
   background: url("/assets/img/Header\ Background.png") top center no-repeat;
   background-size: cover;
-  min-width: 100%;
-  min-height: 500px;
+  width: 100%;
+  height: auto;
   position: relative;
   z-index: -1;
   padding: 0;
@@ -389,7 +389,7 @@
   h1 {
     font-family: "Reey-Regular";
     @include breakpoint(xs) {
-      font-size: 7px;
+      font-size: 13px;
     }
 
     @include breakpoint(sm) {
@@ -408,11 +408,11 @@
     font-weight: 400;
     font-size: 25px;
     @include breakpoint(xs) {
-      font-size: 5px;
+      font-size: 10px;
     }
 
     @include breakpoint(sm) {
-      font-size: 10px;
+      font-size: 15px;
     }
     @include breakpoint(md) {
       font-size: 20px;
@@ -452,4 +452,238 @@
 .leaves {
   position: absolute;
   margin-top: -10%;
+}
+.whiteBg {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  margin-top: -15%;
+}
+
+/*SECTION 6*/
+#section6 {
+  h4 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 700;
+    @include breakpoint(xs) {
+      font-size: 15px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 15px;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 20px;
+    }
+  }
+  .item-text {
+    h3 {
+      font-family: "Reey-Regular";
+      font-weight: 400;
+      @include breakpoint(xs) {
+        font-size: 20px;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 25px;
+      }
+      @include breakpoint(md) {
+        font-size: 35px;
+      }
+
+      @include breakpoint(lg) {
+        font-size: 40px;
+      }
+    }
+    h5 {
+      font-family: "Open Sans", sans-ser;
+      font-weight: 400;
+      @include breakpoint(xs) {
+        font-size: 10px;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 15px;
+      }
+      @include breakpoint(md) {
+        font-size: 18px;
+      }
+
+      @include breakpoint(lg) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .descriptionText {
+    h3 {
+      font-family: "Open Sans", sans-ser;
+      font-weight: 600;
+      @include breakpoint(xs) {
+        font-size: 10px;
+      }
+
+      @include breakpoint(sm) {
+        font-size: 15px;
+      }
+      @include breakpoint(md) {
+        font-size: 20px;
+      }
+
+      @include breakpoint(lg) {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+/*SECTION 7*/
+#section7 {
+  background: url("/assets/img/bg.png");
+  background-size: cover;
+  min-width: 100%;
+  min-height: auto;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+  .backGround {
+    // background: url("/assets/img/leavesRight.png") top center no-repeat;
+    // background-size: cover;
+    // min-width: 300px;
+    // min-height: 300px;
+    // position: absolute;
+
+    // padding: 0;
+    // margin-left: 80vw;
+
+    @include breakpoint(xs) {
+      min-width: 100px;
+      min-height: 100px;
+    }
+
+    @include breakpoint(sm) {
+      min-width: 200px;
+      min-height: 200px;
+    }
+    @include breakpoint(md) {
+      min-width: 280px;
+      min-height: 280px;
+    }
+
+    @include breakpoint(lg) {
+      min-width: 300px;
+      min-height: 300px;
+    }
+  }
+
+  h1 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 700;
+    @include breakpoint(xs) {
+      font-size: 15px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 30px;
+    }
+    @include breakpoint(md) {
+      font-size: 60px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 75px;
+    }
+  }
+
+  h4 {
+    font-family: "Open Sans", sans-ser;
+    font-weight: 400;
+    @include breakpoint(xs) {
+      font-size: 10px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 15px;
+    }
+    @include breakpoint(md) {
+      font-size: 25px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 30px;
+    }
+  }
+
+  .input-email {
+    @include breakpoint(md) {
+      width: 600px;
+    }
+
+    @include breakpoint(lg) {
+      width: 770px;
+    }
+    button {
+      background-color: #54524f;
+      font-family: "Open Sans", sans-ser;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+
+/*FOOTER*/
+#section8 {
+  .item-share {
+    width: 25px;
+    height: 25px;
+    margin-right: 5%;
+  }
+
+  h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #343434;
+    @include breakpoint(xs) {
+      font-size: 15px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 25px;
+    }
+    @include breakpoint(md) {
+      font-size: 31px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 31px;
+    }
+  }
+
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #343434;
+
+    @include breakpoint(xs) {
+      font-size: 13px;
+    }
+
+    @include breakpoint(sm) {
+      font-size: 17px;
+    }
+    @include breakpoint(md) {
+      font-size: 20px;
+    }
+
+    @include breakpoint(lg) {
+      font-size: 23px;
+    }
+  }
+  a {
+    text-decoration: none;
+  }
 }
