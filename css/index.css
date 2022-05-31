@@ -98,7 +98,7 @@
 
 /*SECTION 1*/
 #section1 {
-  background: url("/assets/img/Guides.png") top center no-repeat;
+  background: url("../assets/img/Guides.png") top center no-repeat;
   background-size: cover;
   min-width: 100%;
   min-height: auto;
@@ -109,7 +109,7 @@
 #section1 .cookBrand {
   width: 50px;
   height: 50px;
-  background-image: url("/assets/img/chef.png");
+  background-image: url("../assets/img/chef.png");
   background-size: cover;
   position: relative;
 }
@@ -479,7 +479,7 @@
 
 /*SECTION 5*/
 #section5 {
-  background: url("/assets/img/Header Background.png") top center no-repeat;
+  background: url("../assets/img/HeaderBackground.png") top center no-repeat;
   background-size: cover;
   width: 100%;
   height: auto;
@@ -697,7 +697,7 @@
 
 /*SECTION 7*/
 #section7 {
-  background: url("/assets/img/bg.png");
+  background: url("../assets/img/bg.png");
   background-size: cover;
   min-width: 100%;
   min-height: auto;
